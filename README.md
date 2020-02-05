@@ -1,2 +1,1 @@
-# js-testing-workshop
- 
+# Pure React Studies
