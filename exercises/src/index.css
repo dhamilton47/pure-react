@@ -1,0 +1,38 @@
+.envelope {
+    border: solid 1px black;
+    display: block;
+    height: 300px;
+    width: 600px;
+    min-height: 200px;
+    min-width: 600px;
+    padding: 10px;
+}
+
+.from-person {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    min-height: 75px;
+}
+
+.stamp {
+    border: solid 1px black;
+    height: 80px;
+    text-align: center;
+
+    width: 65px;
+}
+
+.stamp-design {
+    height: 80px;
+    transform: rotate(-45deg);
+    width: 65px;
+}
+
+.to-person {
+    align-content: center;
+    padding: 50px 200px;
+    height: 200px;
+    justify-content: space-between;
+    min-height: 125px;
+}

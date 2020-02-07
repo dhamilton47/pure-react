@@ -76,14 +76,6 @@ Author.propTypes = {
     })
 }
 
-function Message({ message }) {
-    return (
-        <div className='message'>
-            {message}
-        </div>
-    )
-}
-
 const Time = ({ time }) => {
     const timeString = moment(time).fromNow()
     return (
@@ -92,6 +84,15 @@ const Time = ({ time }) => {
         </span>
     )
 }
+
+function Message({ message }) {
+    return (
+        <div className='message'>
+            {message}
+        </div>
+    )
+}
+
 const RetweetButton = ({ count }) => {
     return (
         <span className='retweet-button'>
