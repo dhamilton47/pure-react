@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import { Envelope } from './Envelope'
 
 const sender = {
     name: 'Mr. Sender',
@@ -19,40 +20,6 @@ const App = () => {
         <div>
             <Envelope toPerson={receiver} fromPerson={sender}/>
         </div>
-    )
-}
-
-const Envelope = ({toPerson, fromPerson}) => {
-    return (
-        <div className='envelope'>
-            <div className='from-person'>
-                <AddressLabel addressee={fromPerson}/>
-                <Stamp/>
-            </div>
-            
-            <div className='to-person'>
-                <AddressLabel addressee={toPerson}/>
-            </div>
-        </div>
-    )
-}
-
-const AddressLabel = ({ addressee }) => {
-    const {name, street, region} = addressee
-    return (
-        <span>
-            <div>{name}</div>
-            <div>{street}</div>
-            <div>{region}</div>
-        </span>
-    )
-}
-
-const Stamp = () => {
-    return(
-        <span className='stamp'>
-            <span className='stamp-design'>stamp</span>
-        </span>
     )
 }
 
