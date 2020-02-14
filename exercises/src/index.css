@@ -86,3 +86,88 @@
     width: 40px;
     word-wrap: break-word;
 }
+
+.poster {
+    width: 1000px;
+    height: 800px;
+    background-color: black;
+    margin-bottom: 3rem;
+}
+
+.title {
+    height: 110px;
+    color: blue;
+    font: bold 'Times New Roman';
+    text-align: center;
+/*    vertical-align: top;*/
+}
+img {
+    margin: 50px;
+}
+
+.title-end {
+    font-size: 6em;
+    /*height: 110px;*/
+    vertical-align: top;
+}
+
+.title-middle {
+    font-size: 4em;
+/*    height: 110px;*/
+    vertical-align: top;
+}
+
+.saying {
+    color: white;
+    text-align: center;
+}
+
+
+.email {
+    border-top: gray 1px solid;
+    border-bottom: gray 1px solid;
+    display: flex;
+    height: 40px;
+    width: 800px;
+    margin-bottom: 3em;
+}
+
+.buttons {
+    color: #aab8c2;
+    font-size: 1.4em;
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 80px;
+}
+
+.thumbtack-button {
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+}
+
+.header {
+    display: flex;
+    height: 20px;
+    width: 100%;
+}
+.text {
+    height: 20px;
+    color: #8899a6;
+}
+
+.sender {
+    width: 150px;
+}
+
+.subject {
+    width: 430px;
+}
+
+.date {
+    width: 60px;
+}
+
+.time {
+    padding-left: 0.3em;
+}

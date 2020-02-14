@@ -97,7 +97,7 @@ const RetweetButton = ({ count }) => {
     return (
         <span className='retweet-button'>
             <i className='fa fa-retweet'/>
-    {count > 0 && <span className='retweet-count'>{count}</span>}
+            {count > 0 && <span className='retweet-count'>{count}</span>}
         </span>
     )
 }
